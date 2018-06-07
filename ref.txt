@@ -5,6 +5,8 @@ http://yiotis.net/filterizr/
 https://codepen.io/GA-MO/pen/thzsC
 http://simbyone.com/animated-masonry-gallery-with-filters/
 http://wpandsuch.com/how-to-create-a-responsive-filterable-portfolio-with-isotope-js-and-fancybox/
+over effect;
+https://codepen.io/sifulislam/pen/NxQZNg
 
 Animate item on scrool:
 http://jsfiddle.net/RokoCB/tw6g2oeu/7/
@@ -15,3 +17,5 @@ https://jsfiddle.net/Lp27vuu4/4/
 
 Respp:
 https://codepen.io/marcolago/pen/lqGFb
+
+split text animation

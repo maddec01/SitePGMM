@@ -44,7 +44,7 @@ $(document).ready(function () {
 
     // Footer reveal
     $('footer').footerReveal({ shadow: false, zIndex: -1 });
-    
+
     // Check active page
     var path = window.location.pathname.split('/').pop();
     if ( path == '' ) {
@@ -53,7 +53,7 @@ $(document).ready(function () {
     var target = $('nav a[href="'+path+'"]');
     target.addClass('active');
 
-    // Return the visible amount of px of any element currently in viewport.
+    // Plugin @RokoCB : Return the visible amount of px of any element currently in viewport.
     (function($, win) {
         $.fn.inViewport = function(cb) {
             return this.each(function(i,el){
