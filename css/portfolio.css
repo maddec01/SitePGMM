@@ -45,6 +45,7 @@
     border: 1px solid;
     vertical-align: middle;
     -webkit-appearance: none;
+    appearance: none;
     color: #555;
     background-color: rgba(0, 0, 0, 0);
 }
