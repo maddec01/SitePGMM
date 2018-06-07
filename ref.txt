@@ -1,0 +1,17 @@
+Portfolio:
+https://www.queness.com/post/14577/create-a-simple-responsive-portfolio-page-with-filtering-and-hover-effect
+https://isotope.metafizzy.co/
+http://yiotis.net/filterizr/
+https://codepen.io/GA-MO/pen/thzsC
+http://simbyone.com/animated-masonry-gallery-with-filters/
+http://wpandsuch.com/how-to-create-a-responsive-filterable-portfolio-with-isotope-js-and-fancybox/
+
+Animate item on scrool:
+http://jsfiddle.net/RokoCB/tw6g2oeu/7/
+
+Change style overlap:
+http://jsfiddle.net/flish/T6x4R/
+https://jsfiddle.net/Lp27vuu4/4/
+
+Respp:
+https://codepen.io/marcolago/pen/lqGFb
