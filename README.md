@@ -1,3 +1,3 @@
 # PGMM
 
-My personal portfolio site
+My personal portfolio website
