@@ -46,11 +46,29 @@
                     <a class="fil-cat" data-rel="bcards">Concept</a>
                 </div>
                 <div id="portfolio">
+                    <!-- Emli store -->
                     <div class="tile scale-anm web all">
-                        <img src="https://www.w3schools.com/w3images/lights.jpg" alt="" />
+                        <img src="portfolio/d-emlistore/cover.png" alt="" />
+                        <a href="#">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Emli Store</h2>
+                                    <p>Design</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="tile scale-anm bcards all">
-                        <img src="http://www.wellcomeimageawards.org/jpegs/58956/B0010980_main.jpg" alt="" />
+                    <!-- Estudio 21 GO -->
+                    <div class="tile scale-anm web all">
+                        <img src="portfolio/d-estudio21gopening/cover.png" alt="" />
+                        <a href="#">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Estudio 21</h2>
+                                    <p>Design</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="tile scale-anm web all">
                         <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/emi_haze-300x201.jpg" alt="" />
@@ -110,7 +128,7 @@
                 $('.fil-cat').removeClass('active');
                 $(this).addClass('active');
                 $('#portfolio').fadeTo(100, 0.1);
-                $('#portfolio div').not('.'+selectedClass).fadeOut().removeClass('scale-anm');
+                $('#portfolio .tile').not('.'+selectedClass).fadeOut().removeClass('scale-anm');
                 setTimeout(function() {
                 $('.'+selectedClass).fadeIn().addClass('scale-anm');
                     $('#portfolio').fadeTo(300, 1);

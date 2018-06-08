@@ -19,3 +19,8 @@ Respp:
 https://codepen.io/marcolago/pen/lqGFb
 
 split text animation
+https://codepen.io/near93/pen/ZpYgRx
+
+loading ttext
+https://codepen.io/badblakesmith/pen/oLXZrE
+https://codepen.io/rhernando/pen/pJBpNa
