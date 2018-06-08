@@ -81,7 +81,7 @@ html {
     margin-right: -280px;
 }
 
-/* Sidebar nav styles */
+/* Sidebar / Topbar nav styles */
 .sidebar-nav {
     position: fixed;
     top: 0;
@@ -92,6 +92,11 @@ html {
     list-style: none;
 }
 
+.top-nav {
+    justify-content: center;
+    padding: 35px 0px;
+}
+
 .sidebar-nav li {
     position: relative; 
     line-height: 1.4;
@@ -99,8 +104,9 @@ html {
     width: 100%;
 }
 
-.sidebar-nav li a {
-    display: block;
+.sidebar-nav li a,
+.top-nav a
+ {
     color: #1d1d1d;
     text-align: center;
     text-transform: uppercase;
@@ -109,13 +115,22 @@ html {
     font-style: normal;
     font-weight: 500;
     text-decoration: none;
-    padding: 8px 60px;   
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.sidebar-nav li a {
+    display: block;
 }
 
 .sidebar-nav li a:hover,
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus,
-.sidebar-nav li .active {
+.sidebar-nav li .active,
+.top-nav a:hover,
+.top-nav a:active,
+.top-nav a:focus,
+.top-nav .active {
     color: #ba4343;
     text-decoration: none;
 }
@@ -404,7 +419,7 @@ html {
     .col-span-3,
     .col-span-4,
     .col-span-5 {
-    flex-basis: 50%;
+        flex-basis: 50%;
     }
 
     .col-span-6,
@@ -413,11 +428,11 @@ html {
     .col-span-9,
     .col-span-10,
     .col-span-11 {
-    flex-basis: 100%;
+        flex-basis: 100%;
     }
 
     .nested .col {
-    flex-basis: 100%;
+        flex-basis: 100%;
     }
     
     .footer-bottom-bar .col-span-4 {
@@ -497,7 +512,6 @@ footer {
 a {
     color: #282828;
     text-decoration: none;
-    
 }
 
 a:hover,

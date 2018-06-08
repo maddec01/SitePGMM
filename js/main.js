@@ -73,7 +73,6 @@ $(document).ready(function () {
 
     // Header change color on dark, red sections
     var sections = document.querySelectorAll('.section-dark,.section-red');
-    console.log(sections);
     var initialTopOffset = 20;
     $(window).scroll(function(event) {
         $('.hamb-logo').css('color', '#1a1a1a');

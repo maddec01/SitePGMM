@@ -36,11 +36,14 @@
         <div id="page-content-wrapper">
             <div class="overlay hidden"></div>
             <section class="section-light" style="min-height: 100vh;">
-                <div class="toolbar mb2 mt2">
-                    <button class="btn fil-cat" href="" data-rel="all">All</button>
-                    <button class="btn fil-cat" data-rel="web">Websites</button>
-                    <button class="btn fil-cat" data-rel="flyers">Flyers</button>
-                    <button class="btn fil-cat" data-rel="bcards">Business Cards</button>
+                <div class="row nested top-nav" >
+                    <a class="fil-cat active" data-rel="all">All</a>
+                    <a class="fil-cat" data-rel="web">Video</a>
+                    <a class="fil-cat" data-rel="flyers">Design</a>
+                    <a class="fil-cat" data-rel="bcards">Development</a>
+                    <a class="fil-cat" data-rel="bcards">Broadcast</a>
+                    <a class="fil-cat" data-rel="bcards">Web</a>
+                    <a class="fil-cat" data-rel="bcards">Concept</a>
                 </div>
                 <div id="portfolio">
                     <div class="tile scale-anm web all">
@@ -101,14 +104,16 @@
     </div>
     <script>
        $(function() {
-            var selectedClass = "";
-            $(".fil-cat").click(function(){ 
-                selectedClass = $(this).attr("data-rel"); 
-                $("#portfolio").fadeTo(100, 0.1);
-                $("#portfolio div").not("."+selectedClass).fadeOut().removeClass('scale-anm');
+            var selectedClass = '';
+            $('.fil-cat').click(function(){
+                selectedClass = $(this).attr("data-rel");
+                $('.fil-cat').removeClass('active');
+                $(this).addClass('active');
+                $('#portfolio').fadeTo(100, 0.1);
+                $('#portfolio div').not('.'+selectedClass).fadeOut().removeClass('scale-anm');
                 setTimeout(function() {
-                $("."+selectedClass).fadeIn().addClass('scale-anm');
-                    $("#portfolio").fadeTo(300, 1);
+                $('.'+selectedClass).fadeIn().addClass('scale-anm');
+                    $('#portfolio').fadeTo(300, 1);
                 }, 300);
             });
         });
