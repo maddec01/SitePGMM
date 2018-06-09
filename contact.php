@@ -28,13 +28,16 @@
 </head>
 
 <body>
-    <div id="wrapper">
+    <div class="loader-background">
+        <div class="loader"></div>
+    </div>
+    <div class="wrapper hidden visuallyhidden">
         <!-- Sidebar -->
         <?php include(ABS_PATH . "/includes/nav.php"); ?>
         <?php include(ABS_PATH . "/includes/fixedlogo.php"); ?>
         <!-- Page Content -->
         <div id="page-content-wrapper">
-            <div class="overlay hidden"></div>
+            <div class="overlay hidden visuallyhidden"></div>
             <section>
                 <div class="mainhero">
                     &nbsp;

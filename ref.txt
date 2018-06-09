@@ -10,6 +10,7 @@ https://codepen.io/sifulislam/pen/NxQZNg
 
 Animate item on scrool:
 http://jsfiddle.net/RokoCB/tw6g2oeu/7/
+https://codepen.io/hartless/pen/NGBMBB
 
 Change style overlap:
 http://jsfiddle.net/flish/T6x4R/

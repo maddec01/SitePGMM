@@ -85,10 +85,6 @@
 }
 
 @media all and (max-width: 768px) {
-    .top-nav {
-        padding-top: 85px;
-        padding-bottom: 15px;
-    }
     #portfolio {
         -webkit-column-count: 2; 
         -moz-column-count: 2;

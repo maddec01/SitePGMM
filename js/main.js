@@ -1,8 +1,19 @@
 $(document).ready(function () {
+    // Loader
+    $('.loader-background').addClass('visuallyhidden');
+    setTimeout(function () {
+        $('.loader-background').addClass('hidden');
+    }, 700);
+    $('.wrapper').removeClass('hidden');
+    setTimeout(function () {
+        $('.wrapper').removeClass('visuallyhidden');
+    }, 200);
+
+    // Hamburger, overlay, fixed logo toggles
     var trigger = $('.hamburger'),
         overlay = $('.overlay'),
         hamblogo = $('.hamb-logo'),
-       isClosed = false;
+        isClosed = false;
   
       trigger.click(function () {
         hamburger_cross();      
@@ -39,7 +50,7 @@ $(document).ready(function () {
     }
     
     $('[data-toggle="offcanvas"]').click(function () {
-          $('#wrapper').toggleClass('toggled');
+          $('.wrapper').toggleClass('toggled');
     });
 
     // Footer reveal
@@ -93,4 +104,19 @@ $(document).ready(function () {
     
     //trigger the scroll
     $(window).scroll();
+
+    // split
+    var headline = $('.split-text'),
+        words = headline.text().split(""),
+        html = "";
+
+    setTimeout(function () {
+        $('.split-text').removeClass('hidden');
+        for (var i = 0; i < words.length; i++) {
+            html += "<span>" + words[i] + "</span>";
+            headline.html(html).children().hide().each(function(i) {
+                return $(this).delay(i*100).fadeIn(500);
+            });
+        }
+    }, 800);
 });

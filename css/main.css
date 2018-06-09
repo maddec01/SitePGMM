@@ -33,17 +33,58 @@ html {
 .nav .open > a:focus {
     background-color: transparent;
 }
-
-/* Wrappers */
-#wrapper {
-    padding-left: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+/* Loader */
+.loader-background {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    transition: all 0.7s ease-in-out;
 }
 
-#wrapper.toggled {
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 60px;
+    height: 60px;
+    background-color: #ba4343;
+    border-radius: 100%;
+    -webkit-animation: sk-pulseScaleOut 0.7s infinite ease-in-out;
+            animation: sk-pulseScaleOut 0.7s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-pulseScaleOut {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0); }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 0; }
+}
+  
+  @keyframes sk-pulseScaleOut {
+    0% {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        opacity: 0;
+    }
+}
+/* Wrappers */
+.wrapper {
+    padding-left: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.wrapper.toggled {
     margin-left: 280px;
 }
 
@@ -67,17 +108,17 @@ html {
     display: none;
 }
 
-#wrapper.toggled #sidebar-wrapper {
+.wrapper.toggled #sidebar-wrapper {
     width: 280px;
 }
 
 #page-content-wrapper {
+    position: absolute;
     z-index: 100;
     width: 100%;
 }
 
-#wrapper.toggled #page-content-wrapper {
-    position: absolute;
+.wrapper.toggled #page-content-wrapper {
     margin-right: -280px;
 }
 
@@ -94,7 +135,7 @@ html {
 
 .top-nav {
     justify-content: center;
-    padding: 35px 0px;
+    padding: 33px 0px;
 }
 
 .sidebar-nav li {
@@ -115,7 +156,7 @@ html {
     font-style: normal;
     font-weight: 500;
     text-decoration: none;
-    padding: 8px 10px;
+    padding: 8px 12px;
     cursor: pointer;
 }
 
@@ -323,7 +364,6 @@ html {
     padding-left: 5px;
     letter-spacing: 2px;
     transition: all .2s ease-in-out;
-    display: block;
 }
 
 /* Row Col Flexes */
@@ -431,6 +471,11 @@ html {
 
     .nested .col {
         flex-basis: 100%;
+    }
+
+    .top-nav {
+        padding-top: 85px;
+        padding-bottom: 15px;
     }
     
     .footer-bottom-bar .col-span-4 {

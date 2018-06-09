@@ -28,20 +28,29 @@
 </head>
 
 <body>
-    <div id="wrapper">
+    <div class="loader-background">
+        <div class="loader"></div>
+    </div>
+    <div class="wrapper hidden visuallyhidden">
         <!-- Sidebar -->
         <?php include(ABS_PATH . "/includes/nav.php"); ?>
         <?php include(ABS_PATH . "/includes/fixedlogo.php"); ?>
         <!-- Page Content -->
         <div id="page-content-wrapper">
-            <div class="overlay hidden"></div>
+            <div class="overlay hidden visuallyhidden"></div>
             <section class="section-light">
                 <div class="mainhero">
-                    &nbsp;
+                    <div class="row nested top-nav" >
+                        <a href="portfolio.php">Portfolio</a>
+                        <a href="resume.php">Resume</a>
+                    </div>
+                    <div style="position: absolute; bottom: 0; margin-left: 38px;">
+                        <h1 class="split-text hidden" style="font-size: 50px; color: #fff;">Pedro Gomes</h1>
+                    </div>
                 </div>
             </section>
             <?php include(ABS_PATH . "/includes/footer.php"); ?>
-        </div> 
+        </div>
     </div>
 </body>
 </html>
