@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900');
 @font-face {
     font-family: 'kitchen_policeregular';
-    src: url('assets/fonts/kitchenpolice-webfont.eot');
-    src: url('assets/fonts/kitchenpolice-webfont.eot?#iefix') format('embedded-opentype'),
-         url('assets/fonts/kitchenpolice-webfont.woff2') format('woff2'),
-         url('assets/fonts/kitchenpolice-webfont.woff') format('woff'),
-         url('assets/fonts/kitchenpolice-webfont.ttf') format('truetype'),
-         url('assets/fonts/kitchenpolice-webfont.svg#kitchen_policeregular') format('svg');
+    src: url('../assets/fonts/kitchenpolice-webfont.eot');
+    src: url('../assets/fonts/kitchenpolice-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/kitchenpolice-webfont.woff2') format('woff2'),
+         url('../assets/fonts/kitchenpolice-webfont.woff') format('woff'),
+         url('../assets/fonts/kitchenpolice-webfont.ttf') format('truetype'),
+         url('../assets/fonts/kitchenpolice-webfont.svg#kitchen_policeregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -313,9 +313,7 @@ html {
 
 /* Hamburger-Logo */
 .hamb-logo {
-    font-family: 'Kitchen Police', sans-serif;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'kitchen_policeregular';
     font-size: 35px;
     color: #1a1a1a;
     position: fixed;
@@ -543,7 +541,7 @@ a:focus{
 
 /* Headers Style */
 h1{
-    font-family: 'Kitchen Police', sans-serif;
+    font-family: 'kitchen_policeregular';
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -552,7 +550,7 @@ h1{
 }
 
 h2{
-    font-family: 'Kitchen Police', sans-serif;
+    font-family: 'kitchen_policeregular';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -621,7 +619,7 @@ h6 {
     height: 100%;
     width: 0%;
     -webkit-transition: width 1.5s ease-in-out;
-    transition: all 1.5s ease-in-out;
+    transition: width 1.5s ease-in-out;
 }
 
 /* Triggers */
