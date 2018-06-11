@@ -3,6 +3,6 @@
     <span class="hamb-middle"></span>
     <span class="hamb-bottom"></span>
 </button>
-<a href="index.php">
+<a href="/">
     <span class="hamb-logo">PG</span>
 </a>

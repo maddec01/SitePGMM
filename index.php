@@ -41,11 +41,11 @@
             <section class="section-light">
                 <div class="mainhero">
                     <div class="row nested top-nav" >
-                        <a href="portfolio.php">Portfolio</a>
-                        <a href="resume.php">Resume</a>
+                        <a href="/portfolio">Portfolio</a>
+                        <a href="/resume">Resume</a>
                     </div>
                     <div style="position: absolute; bottom: 0; margin-left: 38px;">
-                        <h1 class="split-text hidden" style="font-size: 50px; color: #fff;">Pedro Gomes</h1>
+                        <h1 class="split-text hidden" style="font-size: 50px; color: #fff; margin-bottom: 20px;">Pedro Gomes</h1>
                     </div>
                 </div>
             </section>

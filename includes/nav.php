@@ -1,21 +1,21 @@
 <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
         <li class="sidebar-brand">
-            <a href="index.php">
-                <img src="assets/PGmultimediaSHORT.png" alt="hamb-logo" width="120">
+            <a href="/">
+                <img src="/assets/PGmultimediaSHORT.png" alt="hamb-logo" width="120">
             </a>
         </li>
         <li>
-            <a href="index.php">Home</a>
+            <a href="/">Home</a>
         </li>
         <li>
-            <a href="portfolio.php">Portfolio</a>
+            <a href="/portfolio">Portfolio</a>
         </li>
         <li>
-            <a href="resume.php">Resume</a>
+            <a href="/resume">Resume</a>
         </li>
         <li>
-            <a href="contact.php">Contact</a>
+            <a href="/contact">Contact</a>
         </li>
         <div class="sidebar-bottom">
             <div class="sidebar-bottom-social">

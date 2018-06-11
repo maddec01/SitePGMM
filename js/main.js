@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(window).bind("load", function() {
     // Loader
     $('.loader-background').addClass('visuallyhidden');
     setTimeout(function () {
@@ -57,11 +57,8 @@ $(document).ready(function () {
     $('footer').footerReveal({ shadow: false, zIndex: -1 });
 
     // Check active page
-    var path = window.location.pathname.split('/').pop();
-    if ( path == '' ) {
-        path = 'index.php';
-    }
-    var target = $('nav a[href="'+path+'"]');
+    var path = window.location.pathname.split('/')[1];
+    var target = $('nav a[href="/'+path+'"]');
     target.addClass('active');
 
     // Plugin @RokoCB : Return the visible amount of px of any element currently in viewport.
