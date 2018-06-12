@@ -20,7 +20,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
 
     <!-- Page Specific CSS -->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/contact.css" />
 
     <script src="js/jquery.min.js"></script>
     <script src="js/footer-reveal.js"></script>
@@ -42,6 +42,9 @@
                 <div class="mainhero">
                     &nbsp;
                 </div>
+            </section>
+            <section>
+                    <?php include(ABS_PATH . "/cform/form.html"); ?>
             </section>
             <?php include(ABS_PATH . "/includes/footer.php"); ?>
         </div> 
