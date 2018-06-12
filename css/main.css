@@ -573,6 +573,9 @@ a:focus{
     border-style: solid;
     border-width: 1px;
     border-color: #fff;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .button-large:hover {

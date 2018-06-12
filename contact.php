@@ -39,12 +39,16 @@
         <div id="page-content-wrapper">
             <div class="overlay hidden visuallyhidden"></div>
             <section>
-                <div class="mainhero">
+                <div class="contact-cover">
                     &nbsp;
                 </div>
             </section>
-            <section>
-                    <?php include(ABS_PATH . "/cform/form.html"); ?>
+            <section class="section-dark"  style="min-height: 70vh;">
+                <div class="container">
+                    <div class="row nested section-padding">
+                        <?php include(ABS_PATH . "/cform/form.html"); ?>
+                    </div>
+                </div>
             </section>
             <?php include(ABS_PATH . "/includes/footer.php"); ?>
         </div> 
