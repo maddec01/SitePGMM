@@ -41,18 +41,18 @@
             <section class="section-light" style="min-height: 100vh;">
                 <div class="row nested top-nav" >
                     <a class="fil-cat active" data-rel="all">All</a>
-                    <a class="fil-cat" data-rel="web">Video</a>
-                    <a class="fil-cat" data-rel="flyers">Design</a>
-                    <a class="fil-cat" data-rel="bcards">Development</a>
-                    <a class="fil-cat" data-rel="bcards">Broadcast</a>
-                    <a class="fil-cat" data-rel="bcards">Web</a>
-                    <a class="fil-cat" data-rel="bcards">Concept</a>
+                    <a class="fil-cat" data-rel="video">Video</a>
+                    <a class="fil-cat" data-rel="design">Design</a>
+                    <a class="fil-cat" data-rel="dev">Development</a>
+                    <a class="fil-cat" data-rel="broad">Broadcast</a>
+                    <a class="fil-cat" data-rel="web">Web</a>
+                    <a class="fil-cat" data-rel="concept">Concept</a>
                 </div>
                 <div id="portfolio">
                     <!-- Emli store -->
-                    <div class="tile scale-anm web all">
+                    <div class="tile scale-anm design all">
                         <img src="/portfolio/d-emlistore/cover.png" alt="" />
-                        <a href="#">
+                        <a href="/portfolio/d-emlistore">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-text">
                                     <h2>Emli Store</h2>
@@ -62,61 +62,180 @@
                         </a>
                     </div>
                     <!-- Estudio 21 GO -->
-                    <div class="tile scale-anm web all">
+                    <div class="tile scale-anm design all">
                         <img src="/portfolio/d-estudio21gopening/cover.png" alt="" />
-                        <a href="#">
+                        <a href="/portfolio/d-estudio21gopening">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-text">
-                                    <h2>Estudio 21</h2>
+                                    <h2>Estudio 21 Grand Opening</h2>
                                     <p>Design</p>
                                 </div>
                             </div>
                         </a>
                     </div>
+                    <!-- Estudio 21 Card -->
+                    <div class="tile scale-anm design all">
+                        <img src="/portfolio/d-estudio21card/cover.jpg" alt="" />
+                        <a href="/portfolio/d-estudio21card">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Estudio 21 Card</h2>
+                                    <p>Design</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Custom Live Score -->
+                    <div class="tile scale-anm dev broad all">
+                        <img src="/portfolio/dev-customlivescore/cover.jpg" alt="" />
+                        <a href="/portfolio/dev-customlivescore">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Custom Live Score</h2>
+                                    <p>Development</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- SWTL Game -->
+                    <div class="tile scale-anm dev concept all">
+                        <img src="/portfolio/dev-swtlgame/cover.jpg" alt="" />
+                        <a href="/portfolio/dev-swtlgame">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Stay With the Light</h2>
+                                    <p>Game, Development, Concept</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Ideal Med Poster -->
+                    <div class="tile scale-anm design all">
+                        <img src="/portfolio/d-idealmed/cover.jpg" alt="" />
+                        <a href="/portfolio/d-idealmed">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>IdealMed Rugby Tournament</h2>
+                                    <p>Design</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Rugby AAC Posters -->
+                    <div class="tile scale-anm design all">
+                        <img src="/portfolio/d-rugbyaacposters/cover.jpg" alt="" />
+                        <a href="/portfolio/d-rugbyaacposters">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Rugby Posters</h2>
+                                    <p>Design</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Exposer 2nd Anniversary -->
+                    <div class="tile scale-anm video all">
+                        <img src="/portfolio/v-exposer2anniversary/cover.jpg" alt="" />
+                        <a href="/portfolio/v-exposer2anniversary">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Exposer 2nd Anniversary</h2>
+                                    <p>Video</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Exposer rugby -->
+                    <div class="tile scale-anm video all">
+                        <img src="/portfolio/v-exposerrugby/cover.jpg" alt="" />
+                        <a href="/portfolio/v-exposerrugby">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Exposer Rugby</h2>
+                                    <p>Video</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Hacker -->
+                    <div class="tile scale-anm video all">
+                        <img src="/portfolio/v-hacker/cover.jpg" alt="" />
+                        <a href="/portfolio/v-hacker">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Hacker</h2>
+                                    <p>Video</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Rugby AAC Videos -->
+                    <div class="tile scale-anm video all">
+                        <img src="/portfolio/v-rugbyaacvideos/cover.jpg" alt="" />
+                        <a href="/portfolio/v-rugbyaacvideos">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Rugby AAC Videos</h2>
+                                    <p>Video</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Rugby AAC Outdoor -->
+                    <div class="tile scale-anm video all">
+                        <img src="/portfolio/v-rugbyoutdoor/cover.jpg" alt="" />
+                        <a href="/portfolio/v-rugbyoutdoor">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Rugby AAC Outdoor</h2>
+                                    <p>Video</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Selfie -->
+                    <div class="tile scale-anm video all">
+                        <img src="/portfolio/v-selfie/cover.jpg" alt="" />
+                        <a href="/portfolio/v-selfie">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Selfie</h2>
+                                    <p>Video</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Atlantic Pearl Madeira -->
                     <div class="tile scale-anm web all">
-                        <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/emi_haze-300x201.jpg" alt="" />
+                        <img src="/portfolio/w-atpm/cover.jpg" alt="" />
+                        <a href="/portfolio/w-atpm">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Atlantic Pearl Madeira</h2>
+                                    <p>Web</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="tile scale-anm web all">
-                        <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/codystretch-300x270.jpg" alt="" />
+                    <!-- Radio Som de Mais -->
+                    <div class="tile scale-anm web dev all">
+                        <img src="/portfolio/w-rsdm/cover.jpg" alt="" />
+                        <a href="/portfolio/w-rsdm">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Radio Som de Mais</h2>
+                                    <p>Web, Development</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="tile scale-anm flyers all">
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97190&w=350&h=190" alt="" />
-                    </div>
-                    <div class="tile scale-anm bcards all">
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97290&w=200&h=290" alt="" />
-                    </div>
-                    <div class="tile scale-anm flyers all">
-                        <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/jti-icons_08-300x172.jpg" alt="" />
-                    </div>
-                    <div class="tile scale-anm flyers all">
-                        <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/transmission_01-300x300.jpg" alt="" />
-                    </div>
-                    <div class="tile scale-anm web all">
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97290&w=200&h=290" alt="" />
-                    </div>
-                    <div class="tile scale-anm flyers all">
-                            <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97290&w=200&h=290" alt="" /> 
-                    </div>
-                    <div class="tile scale-anm web all">
-                        <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/the-ninetys-brand_02-300x300.jpg" alt="" />
-                    </div>
-                    <div class="tile scale-anm bcards all">
-                        <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/15-dia_1092-1-300x300.jpg" alt="" />
-                    </div>
-                    <div class="tile scale-anm web all">
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97190&w=350&h=190" alt="" /> 
-                    </div>
-                    <div class="tile scale-anm bcards all">
-                        <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/emi_haze-300x201.jpg" alt="" />  
-                    </div>
-                    <div class="tile scale-anm web all">
-                        <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/transmission_01-300x300.jpg" alt="" />
-                    </div> 
-                    <div class="tile scale-anm web all">
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97190&w=350&h=190" alt="" />  
-                    </div> 
-                    <div class="tile scale-anm bcards all">     
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97290&w=200&h=290" alt="" />
+                </div>
+            </section>
+            <!-- Download -->
+            <section class="section-red">
+                <div class="container">
+                    <div class="row nested section-padding" style="justify-content: center; text-align: center;">
+                        <a href="/contact" class="button-large"><h3><i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;Lets have a talk</h3></a>
                     </div>
                 </div>
             </section>

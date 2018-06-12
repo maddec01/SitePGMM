@@ -1,13 +1,11 @@
-$(window).bind("load", function() {
-    // Loader
-    $('.loader-background').addClass('visuallyhidden');
-    setTimeout(function () {
-        $('.loader-background').addClass('hidden');
-    }, 700);
-    $('.wrapper').removeClass('hidden');
-    setTimeout(function () {
-        $('.wrapper').removeClass('visuallyhidden');
-    }, 200);
+$(document).ready(function () {
+    // Footer reveal
+    $('footer').footerReveal({ shadow: false, zIndex: -1 });
+
+    // Check active page
+    var path = window.location.pathname.split('/')[1];
+    var target = $('nav a[href="/'+path+'"]');
+    target.addClass('active');
 
     // Hamburger, overlay, fixed logo toggles
     var trigger = $('.hamburger'),
@@ -52,14 +50,6 @@ $(window).bind("load", function() {
     $('[data-toggle="offcanvas"]').click(function () {
           $('.wrapper').toggleClass('toggled');
     });
-
-    // Footer reveal
-    $('footer').footerReveal({ shadow: false, zIndex: -1 });
-
-    // Check active page
-    var path = window.location.pathname.split('/')[1];
-    var target = $('nav a[href="/'+path+'"]');
-    target.addClass('active');
 
     // Plugin @RokoCB : Return the visible amount of px of any element currently in viewport.
     (function($, win) {
@@ -116,4 +106,16 @@ $(window).bind("load", function() {
             });
         }
     }, 800);
+});
+
+// Loader
+$(window).bind("load", function() {
+    $('.loader-background').addClass('visuallyhidden');
+    setTimeout(function () {
+        $('.loader-background').addClass('hidden');
+    }, 700);
+    $('.wrapper').removeClass('hidden');
+    setTimeout(function () {
+        $('.wrapper').removeClass('visuallyhidden');
+    }, 200);
 });
