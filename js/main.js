@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(window).ready(function () {
     // Footer reveal
     $('footer').footerReveal({ shadow: false, zIndex: -1 });
 
@@ -89,8 +89,6 @@ $(document).ready(function () {
         }
     });
     
-    //trigger the scroll
-    $(window).scroll();
 
     // split
     var headline = $('.split-text'),
@@ -110,12 +108,13 @@ $(document).ready(function () {
 
 // Loader
 $(window).bind("load", function() {
-    $('.loader-background').addClass('visuallyhidden');
     setTimeout(function () {
         $('.loader-background').addClass('hidden');
     }, 700);
     $('.wrapper').removeClass('hidden');
     setTimeout(function () {
         $('.wrapper').removeClass('visuallyhidden');
+        //trigger the scroll
+        $(window).scroll();
     }, 200);
 });
