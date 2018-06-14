@@ -36,10 +36,10 @@
         </div>
         <div class="row nested footer-bottom-bar headingline-dark">
             <div class="col col-span-4 footer-bottom-bar-left">
-                <a href="index.html">Home</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="resume.html">Resume</a>
-                <a href="contact.html">Contact</a>
+                <a href="/">Home</a>
+                <a href="/portfolio">Portfolio</a>
+                <a href="/resume">Resume</a>
+                <a href="/contact">Contact</a>
             </div>
             <div class="col col-span-4 footer-bottom-bar-center">© 2018 pgmulti.media</div>
             <div class="col col-span-4 footer-bottom-bar-right">

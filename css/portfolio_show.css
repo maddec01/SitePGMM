@@ -1,0 +1,42 @@
+.port-gallery {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    -o-column-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.port-right,
+.port-left {
+    padding: 0 2rem;
+}
+
+.port-right {
+    padding-bottom: 2rem;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.port-left img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+@media all and (max-width: 480px) {
+    .port-gallery {
+        -webkit-column-count: 1; 
+        -moz-column-count: 1;
+        -o-column-count: 1;
+        column-count: 1;
+    }
+}

@@ -18,7 +18,6 @@ $(window).ready(function () {
       });
   
       function hamburger_cross() {
-  
         if (isClosed == true) {
             trigger.removeClass('is-open');
             trigger.addClass('is-closed');
@@ -72,6 +71,7 @@ $(window).ready(function () {
     // Header change color on dark, red sections
     var sections = document.querySelectorAll('.section-dark,.section-red');
     var initialTopOffset = 20;
+
     $(window).scroll(function(event) {
         $('.hamb-logo').css('color', '#1a1a1a');
         $('.hamb-top').css('background-color', '#1a1a1a');
@@ -88,7 +88,17 @@ $(window).ready(function () {
             }
         }
     });
-    
+
+    // light box
+    var pictures = document.querySelectorAll('.port-gallery .img-x');
+
+    pictures.forEach(function(pic ){
+        pic.addEventListener('click', function( e ){
+            this.classList.toggle('lightbox');
+            $(this).find('img').fadeTo(0, 0);
+            $(this).find('img').fadeTo(300, 1);
+        });
+    });
 
     // split
     var headline = $('.split-text'),

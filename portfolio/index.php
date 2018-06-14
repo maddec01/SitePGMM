@@ -231,7 +231,7 @@
                     </div>
                 </div>
             </section>
-            <!-- Download -->
+            <!-- Link Contact -->
             <section class="section-red">
                 <div class="container">
                     <div class="row nested section-padding" style="justify-content: center; text-align: center;">

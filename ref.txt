@@ -25,3 +25,6 @@ https://codepen.io/near93/pen/ZpYgRx
 loading ttext
 https://codepen.io/badblakesmith/pen/oLXZrE
 https://codepen.io/rhernando/pen/pJBpNa
+
+fixed side bar
+https://codepen.io/Mixa032/pen/yOMvMB
