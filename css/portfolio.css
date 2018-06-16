@@ -80,7 +80,7 @@
 }
 
 /* Responsive */
-@media all and (max-width: 1224px) {
+@media all and (max-width: 1550px) {
     #portfolio {
         -webkit-column-count: 4; 
         -moz-column-count: 4;

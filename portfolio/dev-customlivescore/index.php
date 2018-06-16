@@ -42,24 +42,23 @@
                 <div class="container">
                     <div class="row nested">
                         <div class="col col-span-8 port-left">
-                            <img src="/portfolio/d-estudio21card/cover.jpg" alt="" />
+                            <img src="/portfolio/dev-customlivescore/cover.jpg" alt="" />
                             <div class="port-gallery">
-                                <div class="img-x"><img src="/portfolio/d-estudio21card/pic01.jpg" alt="" /></div>
-                                <div class="img-x"><img src="/portfolio/d-estudio21card/pic02.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/dev-customlivescore/cover.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/dev-customlivescore/pic01.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/dev-customlivescore/pic02.jpg" alt="" /></div>
                             </div>
                         </div>
                         <div class="col col-span-4 port-right">
-                            <h4>Estudio 21</h4>
-                            <p style="margin: 0;">Business Card</p>
-                            <p style="margin: 45px 0px;">Business card created for Estudio 21.</p>
+                            <h4>Live Score</h4>
+                            <p style="margin: 0;">Custom live score overlay for live broadcasts.</p>
+                            <p style="margin: 45px 0px;">This project is a custom made overlay widget for Rugby AAC (Associação Académica de Coimbra). It's purpose is to show a score overlay in the live broadcast of games.<br>It's fully customizable and controlled with a graphic interface made with HTML, CSS and JavaScript.</p>
                             <h3>Client</h3>
-                            <p>EMLI</p>
+                            <p>Rugby AAC</p>
                             <h3>Role</h3>
-                            <p>Design</p>
+                            <p>Developer, Creator</p>
                             <h3>Year</h3>
                             <p>2016</p>
-                            <h3>Website</h3>
-                            <p><a href="http://www.estudiovinteum.com" target="_blank">www.estudiovinteum.com</a></p>
                         </div>
                     </div>
                 </div>

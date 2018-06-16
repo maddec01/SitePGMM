@@ -49,6 +49,30 @@
                     <a class="fil-cat" data-rel="concept">Concept</a>
                 </div>
                 <div id="portfolio">
+                    <!-- SWTL Game -->
+                    <div class="tile scale-anm dev concept all">
+                        <img src="/portfolio/dev-swtlgame/cover.jpg" alt="" />
+                        <a href="/portfolio/dev-swtlgame">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Stay With the Light</h2>
+                                    <p>Game, Development, Concept</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Rugby AAC Outdoor -->
+                    <div class="tile scale-anm video all">
+                        <img src="/portfolio/v-rugbyoutdoor/cover.jpg" alt="" />
+                        <a href="/portfolio/v-rugbyoutdoor">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Rugby AAC Outdoor</h2>
+                                    <p>Video</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                     <!-- Emli store -->
                     <div class="tile scale-anm design all">
                         <img src="/portfolio/d-emlistore/cover.png" alt="" />
@@ -93,18 +117,6 @@
                                 <div class="portfolio-hover-text">
                                     <h2>Custom Live Score</h2>
                                     <p>Development</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- SWTL Game -->
-                    <div class="tile scale-anm dev concept all">
-                        <img src="/portfolio/dev-swtlgame/cover.jpg" alt="" />
-                        <a href="/portfolio/dev-swtlgame">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-text">
-                                    <h2>Stay With the Light</h2>
-                                    <p>Game, Development, Concept</p>
                                 </div>
                             </div>
                         </a>
@@ -176,18 +188,6 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-text">
                                     <h2>Rugby AAC Videos</h2>
-                                    <p>Video</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- Rugby AAC Outdoor -->
-                    <div class="tile scale-anm video all">
-                        <img src="/portfolio/v-rugbyoutdoor/cover.jpg" alt="" />
-                        <a href="/portfolio/v-rugbyoutdoor">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-text">
-                                    <h2>Rugby AAC Outdoor</h2>
                                     <p>Video</p>
                                 </div>
                             </div>

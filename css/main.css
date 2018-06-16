@@ -433,7 +433,7 @@ html {
 
 /* Row Col Flexes */
 .container {
-    max-width: calc( 900px + 10% );
+    max-width: calc( 950px + 10% );
     margin: 0 auto;
     position: relative;
     padding-right: 5%;
@@ -640,8 +640,9 @@ footer {
 
 /* Links Style */
 a {
-    color: #282828;
+    color: #ba4343dc;
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover,

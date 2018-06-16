@@ -42,24 +42,33 @@
                 <div class="container">
                     <div class="row nested">
                         <div class="col col-span-8 port-left">
-                            <img src="/portfolio/d-estudio21card/cover.jpg" alt="" />
+                            <img src="/portfolio/d-rugbyaacposters/pic01.jpg" alt="" />
                             <div class="port-gallery">
-                                <div class="img-x"><img src="/portfolio/d-estudio21card/pic01.jpg" alt="" /></div>
-                                <div class="img-x"><img src="/portfolio/d-estudio21card/pic02.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-rugbyaacposters/pic02.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-rugbyaacposters/pic03.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-rugbyaacposters/pic04.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-rugbyaacposters/pic05.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-rugbyaacposters/pic06.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-rugbyaacposters/pic07.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-rugbyaacposters/pic08.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-rugbyaacposters/pic09.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-rugbyaacposters/pic10.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-rugbyaacposters/pic11.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-rugbyaacposters/pic12.jpg" alt="" /></div>
                             </div>
                         </div>
                         <div class="col col-span-4 port-right">
-                            <h4>Estudio 21</h4>
-                            <p style="margin: 0;">Business Card</p>
-                            <p style="margin: 45px 0px;">Business card created for Estudio 21.</p>
+                            <h4>Rugby Posters</h4>
+                            <p style="margin: 0;">Rugby AAC promotion</p>
+                            <p style="margin: 45px 0px;">A compilation of posters made to promote Rugby AAC games in social networks and also some outdoors.</p>
                             <h3>Client</h3>
-                            <p>EMLI</p>
+                            <p>Rugby AAC</p>
                             <h3>Role</h3>
                             <p>Design</p>
                             <h3>Year</h3>
-                            <p>2016</p>
+                            <p>2015-2017</p>
                             <h3>Website</h3>
-                            <p><a href="http://www.estudiovinteum.com" target="_blank">www.estudiovinteum.com</a></p>
+                            <p><a href="http://www.rugbyaac.com" target="_blank">www.rugbyaac.com</a></p>
                         </div>
                     </div>
                 </div>

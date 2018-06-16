@@ -42,24 +42,21 @@
                 <div class="container">
                     <div class="row nested">
                         <div class="col col-span-8 port-left">
-                            <img src="/portfolio/d-estudio21card/cover.jpg" alt="" />
+                            <img src="/portfolio/w-rsdm/cover.jpg" alt="" />
                             <div class="port-gallery">
-                                <div class="img-x"><img src="/portfolio/d-estudio21card/pic01.jpg" alt="" /></div>
-                                <div class="img-x"><img src="/portfolio/d-estudio21card/pic02.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/w-rsdm/pic01.jpg" alt="" /></div>
                             </div>
                         </div>
                         <div class="col col-span-4 port-right">
-                            <h4>Estudio 21</h4>
-                            <p style="margin: 0;">Business Card</p>
-                            <p style="margin: 45px 0px;">Business card created for Estudio 21.</p>
+                            <h4>RADIO SOM DE +</h4>
+                            <p style="margin: 0;">Wordpress website, Live Broadcast</p>
+                            <p style="margin: 45px 0px;">Radio Som de Mais is a online radio based on Madeira Island. They also stream live shows on a daily basis and some live events all over the world.<br>I made custom Javascript code for some parts of the site and setup/maintenance of studio software and hardware.</p>
                             <h3>Client</h3>
-                            <p>EMLI</p>
+                            <p>Radio Som de Mais</p>
                             <h3>Role</h3>
-                            <p>Design</p>
+                            <p>Develover, Studio setup</p>
                             <h3>Year</h3>
-                            <p>2016</p>
-                            <h3>Website</h3>
-                            <p><a href="http://www.estudiovinteum.com" target="_blank">www.estudiovinteum.com</a></p>
+                            <p>2017</p>
                         </div>
                     </div>
                 </div>

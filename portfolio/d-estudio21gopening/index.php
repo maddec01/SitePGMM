@@ -42,22 +42,23 @@
                 <div class="container">
                     <div class="row nested">
                         <div class="col col-span-8 port-left">
-                            <img src="/portfolio/d-estudio21card/cover.jpg" alt="" />
+                            <img src="/portfolio/d-estudio21gopening/pic01.jpg" alt="" />
                             <div class="port-gallery">
-                                <div class="img-x"><img src="/portfolio/d-estudio21card/pic01.jpg" alt="" /></div>
-                                <div class="img-x"><img src="/portfolio/d-estudio21card/pic02.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-estudio21gopening/cover.png" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-estudio21gopening/pic03.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/d-estudio21gopening/pic02.png" alt="" /></div>
                             </div>
                         </div>
                         <div class="col col-span-4 port-right">
                             <h4>Estudio 21</h4>
-                            <p style="margin: 0;">Business Card</p>
-                            <p style="margin: 45px 0px;">Business card created for Estudio 21.</p>
+                            <p style="margin: 0;">Grand Opening</p>
+                            <p style="margin: 45px 0px;">A collection of elements design for the grad opening of Estudio 21 a sub-company of EMLI Music Group.<br>Estudio 21 is a music studio and school.</p>
                             <h3>Client</h3>
                             <p>EMLI</p>
                             <h3>Role</h3>
                             <p>Design</p>
                             <h3>Year</h3>
-                            <p>2016</p>
+                            <p>2015</p>
                             <h3>Website</h3>
                             <p><a href="http://www.estudiovinteum.com" target="_blank">www.estudiovinteum.com</a></p>
                         </div>
