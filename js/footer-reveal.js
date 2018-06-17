@@ -26,7 +26,6 @@
 
       $win.on('load resize footerRevealResize', function () {
           if ($this.outerHeight() <= $win.outerHeight() && ($this.offset().top >= $win.outerHeight() || event.type != 'load')) {
-              console.log(event.type);
               $this.css({
                   'z-index': defaults.zIndex,
                   position: 'fixed',

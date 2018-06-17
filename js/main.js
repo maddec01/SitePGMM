@@ -116,8 +116,8 @@ $(window).ready(function () {
     }, 800);
 });
 
-// Loader
-$(window).bind("load", function() {
+$(window).on("load", function() {
+    // loader
     setTimeout(function () {
         $('.loader-background').addClass('hidden');
     }, 700);
@@ -127,4 +127,10 @@ $(window).bind("load", function() {
         //trigger the scroll
         $(window).scroll();
     }, 200);
+
+    // sticky on show case
+    var len = $('script[src*="/js/sticky-sidebar.js"]').length;
+    if (len !== 0) {
+        var stickySidebar = new StickySidebar('.port-right', {minWidth: 768});
+    }
 });
