@@ -1,7 +1,9 @@
-$(window).ready(function () {
+window.onload = function() {
     // Footer reveal
     $('footer').footerReveal({ shadow: false, zIndex: -1 });
+};
 
+$(window).ready(function () {
     // Check active page
     var path = window.location.pathname.split('/')[1];
     var target = $('nav a[href="/'+path+'"]');
@@ -124,7 +126,7 @@ $(window).on("load", function() {
     $('.wrapper').removeClass('hidden');
     setTimeout(function () {
         $('.wrapper').removeClass('visuallyhidden');
-        //trigger the scroll
+        //trigger the scroll for fixed logo
         $(window).scroll();
     }, 200);
 
