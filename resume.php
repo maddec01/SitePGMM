@@ -52,7 +52,7 @@
                         </div>
                         <div class="col col-span-12">
                             <p class="p-text-dark" style="font-size: 16px; line-height: 1.7;">
-                                Hi, I'm Pedro Gomes born in Madeira Island, Portugal. Driven by a lifelong passion for technology, I taught myself how to code from an early age, later going on to study and learn everything related to multimedia creation and production. Throughout the years I have gained some experience from volunteering in small companies during academic breaks and part-time jobs in larger companies where I collaborated / carried out projects and works in the area of Design and Multimedia. I also attended some complementary courses in Photoshop, Illustrator and 3D Studio Max.</br>
+                                Hi, I'm Pedro Gomes born in Madeira Island, Portugal. Driven by a lifelong passion for technology, I taught myself how to code from an early age, later going on to study and learn everything related to multimedia creation and production. Throughout the years I have gained some experience from volunteering in small companies during academic breaks and part-time jobs in larger companies where I collaborated / carried out projects and works in the area of Design and Multimedia. I also attended some complementary courses in Photoshop, Illustrator and 3D Studio Max.<br>
                                 Having completed my education and worked on several independent projects, I now feel able to take on any challenge, whether it's video production, broadcasting, photography, web development, programming or design.
                             </p>
                         </div>
@@ -133,7 +133,7 @@
                             </div>
                             <div class="col col-span-6">
                                 <h4>Multimedia</h4>
-                                <p>Completed bachelor degree in Instituto Superior Miguel Torga (Coimbra).</br>Students are empowered to exercise the various new professions which guarantee the harmonious relationship between the fields of Communications, Information Technology and Design.</p>
+                                <p>Completed bachelor degree in Instituto Superior Miguel Torga (Coimbra).<br>Students are empowered to exercise the various new professions which guarantee the harmonious relationship between the fields of Communications, Information Technology and Design.</p>
                                 <ul style="list-style-type:square; list-style-position: inside; padding-left: 0;">
                                     <li>Web designer.</li>
                                     <li>Managers of projects in the area of information systems, specifically in the production and editing multimedia (internet, digital media, online publications, ...).</li>
@@ -164,29 +164,29 @@
                         <div class="row nested subsection-padding" style="text-align: center;">
                             <div class="col col-span-2-3">
                                 <h5>Image</h5>
-                                <p style="color: #a4a4a4; font-size: 12px;">Photoshop</br>Lightroom</br>Illustrator</p>
+                                <p style="color: #a4a4a4; font-size: 12px;">Photoshop<br>Lightroom<br>Illustrator</p>
                             </div>
                             <div class="col col-span-2-3">
                                 <h5>Video</h5>
-                                <p style="color: #a4a4a4; font-size: 12px;">Premiere</br>After Effects</br>Resolve</br>Final Cut</p>
+                                <p style="color: #a4a4a4; font-size: 12px;">Premiere<br>After Effects<br>Resolve<br>Final Cut</p>
                             </div>
                             <div class="col col-span-2-3">
                                 <h5>Sound</h5>
-                                <p style="color: #a4a4a4; font-size: 12px;">Audition</br>Abletton</p>
+                                <p style="color: #a4a4a4; font-size: 12px;">Audition<br>Abletton</p>
                             </div>
                             <div class="col col-span-2-3">
                                 <h5>3D</h5>
-                                <p style="color: #a4a4a4; font-size: 12px;">Unity 3D</br>Cinema 4D</br>Blender</p>
+                                <p style="color: #a4a4a4; font-size: 12px;">Unity 3D<br>Cinema 4D<br>Blender</p>
                             </div>
                             <div class="col col-span-2-3">
                                 <h5>Programming</h5>
-                                <p style="color: #a4a4a4; font-size: 12px;">HTML</br>CSS</br>JS / jQuery</br>MySQL / MongoDB</br>Node.js</br>React</br>Laravel</br>Java</br>C#</p>
+                                <p style="color: #a4a4a4; font-size: 12px;">HTML<br>CSS<br>JS / jQuery<br>MySQL / MongoDB<br>Node.js<br>React<br>Java<br>C#</p>
                             </div>
                         </div>
                         <div class="col col-span-12 headingline-dark">
                             <h2>Languages</h2>
                         </div>
-                        <div class="col col-span-12" style="font-size: 13px;"></br>
+                        <div class="col col-span-12" style="font-size: 13px;"><br>
                             <div style="float: left;">Portuguese</div>
                             <div style="float: right;">100%</div>
                         </div>
@@ -195,7 +195,7 @@
                                 <div class="progress-bar-percent width100"></div>
                             </div>
                         </div>
-                        <div class="col col-span-12" style="font-size: 13px;"></br>
+                        <div class="col col-span-12" style="font-size: 13px;"><br>
                             <div style="float: left;">English</div>
                             <div style="float: right;">90%</div>
                         </div>
@@ -248,9 +248,7 @@
             <section class="section-red">
                 <div class="container">
                     <div class="row nested section-padding" style="justify-content: center; text-align: center;">
-                        
-                            <a href="#" target="_blank" class="button-large"><h3><i class="fas fa-print"></i>&nbsp;&nbsp;&nbsp;Download .PDF</h3></a>
-                        
+                        <a href="/assets/PedroGomes_RESUME.pdf" target="_blank" class="button-large"><h3><i class="fas fa-print"></i>&nbsp;&nbsp;&nbsp;Download .PDF</h3></a>
                     </div>
                 </div>
             </section>

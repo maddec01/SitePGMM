@@ -5,7 +5,7 @@
                 <div class="headingline"><h3>About</h3></div>
                 <p class="p-text-light">
                     Hi, I'm Pedro Gomes born in Madeira Island, Portugal. I'm a Multimedia Producer looking for full-time employment overseas.
-                    </br>
+                    <br>
                     Feel free to contact me.
                 </p>
             </div>
@@ -13,7 +13,7 @@
                 <div class="headingline"><h3>Latest Works</h3></div>
                 <p class="p-text-light">
                     Hi, I'm Pedro Gomes born in Madeira Island, Portugal. I'm a Multimedia Producer looking for full-time employment overseas.
-                    </br>
+                    <br>
                     Feel free to contact me.
                 </p>
             </div>
@@ -21,7 +21,7 @@
                 <div class="headingline"><h3>Calendar</h3></div>
                 <p class="p-text-light">
                     Hi, I'm Pedro Gomes born in Madeira Island, Portugal. I'm a Multimedia Producer looking for full-time employment overseas.
-                    </br>
+                    <br>
                     Feel free to contact me.
                 </p>
             </div>
@@ -29,7 +29,7 @@
                 <div class="headingline"><h3>Navigation</h3></div>
                 <p class="p-text-light">
                     Hi, I'm Pedro Gomes born in Madeira Island, Portugal. I'm a Multimedia Producer looking for full-time employment overseas.
-                    </br>
+                    <br>
                     Feel free to contact me.
                 </p>
             </div>
