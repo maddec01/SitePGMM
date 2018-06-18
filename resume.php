@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en-US">
 <?php define("ABS_PATH", dirname(__FILE__)); ?>
 <head>
     <meta charset="utf-8" />

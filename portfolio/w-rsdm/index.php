@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en-US">
 <?php define( 'ABS_PATH', dirname(dirname(__FILE__)) . '/' ); ?>
 <head>
     <meta charset="utf-8" />
@@ -58,6 +58,8 @@
                             <p>Develover, Studio setup</p>
                             <h3>Year</h3>
                             <p>2017</p>
+                            <h3>Website</h3>
+                            <p><a href="http://radiosomdemais.com/" target="_blank">radiosomdemais.com</a></p>
                         </div>
                     </div>
                 </div>

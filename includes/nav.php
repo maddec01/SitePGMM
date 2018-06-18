@@ -1,22 +1,14 @@
 <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-        <li class="sidebar-brand">
+    <div class="sidebar-nav">
+        <div class="sidebar-brand">
             <a href="/">
                 <img src="/assets/PGmultimediaSHORT.png" alt="hamb-logo" width="120">
             </a>
-        </li>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/portfolio">Portfolio</a>
-        </li>
-        <li>
-            <a href="/resume">Resume</a>
-        </li>
-        <li>
-            <a href="/contact">Contact</a>
-        </li>
+        </div>
+        <a href="/">Home</a>
+        <a href="/portfolio">Portfolio</a>
+        <a href="/resume">Resume</a>
+        <a href="/contact">Contact</a>
         <div class="sidebar-bottom">
             <div class="sidebar-bottom-social">
                 <a href="https://www.facebook.com/pedrofacg" target="_blank"><i class="fab fa-facebook-f fa-lg" data-fa-transform="grow-6"></i></a>
@@ -28,5 +20,5 @@
                 © 2018 pgmulti.media
             </div>
         </div>
-    </ul>
+    </div>
 </nav>

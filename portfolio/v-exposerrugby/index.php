@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en-US">
 <?php define( 'ABS_PATH', dirname(dirname(__FILE__)) . '/' ); ?>
 <head>
     <meta charset="utf-8" />
@@ -44,7 +44,7 @@
                     <div class="row nested">
                         <div class="col col-span-8 port-left">
                             <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/VjeSVxUqo7E?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="video"></iframe>
+                                <iframe src="https://www.youtube.com/embed/VjeSVxUqo7E?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
                             </div>
                             <div class="port-gallery">
                                 <div class="img-x"><img src="/portfolio/v-exposerrugby/pic01.jpg" alt="" /></div>

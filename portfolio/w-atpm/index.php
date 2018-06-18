@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en-US">
 <?php define( 'ABS_PATH', dirname(dirname(__FILE__)) . '/' ); ?>
 <head>
     <meta charset="utf-8" />
@@ -59,6 +59,8 @@
                             <p>Web Design, Developer</p>
                             <h3>Year</h3>
                             <p>2013</p>
+                            <h3>Website</h3>
+                            <p><a href="http://atlanticpearlmadeira.com/" target="_blank">atlanticpearlmadeira.com</a></p>
                         </div>
                     </div>
                 </div>

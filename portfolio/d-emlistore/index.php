@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en-US">
 <?php define( 'ABS_PATH', dirname(dirname(__FILE__)) . '/' ); ?>
 <head>
     <meta charset="utf-8" />
@@ -24,7 +24,7 @@
 
     <script src="/js/jquery.min.js"></script>
     <script src="/js/footer-reveal.js"></script>
-    <script src="/js/main.js"></script>´
+    <script src="/js/main.js"></script>
     <script src="/js/sticky-sidebar.js"></script>
 </head>
 

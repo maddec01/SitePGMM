@@ -164,14 +164,13 @@ html {
     padding: 33px 0px;
 }
 
-.sidebar-nav li {
-    position: relative; 
+.sidebar-nav a { 
     line-height: 1.4;
     display: inline-block;
     width: 100%;
 }
 
-.sidebar-nav li a,
+.sidebar-nav a,
 .top-nav a
  {
     color: #1d1d1d;
@@ -245,6 +244,11 @@ html {
     margin: auto;
     text-align: center;
     display: inline-block;
+}
+
+.sidebar-bottom-social a {
+    width: auto;
+    padding: 0;
 }
 
 .sidebar-bottom-social i {
