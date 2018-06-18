@@ -25,6 +25,15 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/footer-reveal.js"></script>
     <script src="js/main.js"></script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120910433-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-120910433-1');
+    </script>
 </head>
 
 <body>
