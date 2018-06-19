@@ -53,29 +53,25 @@
                     <div class="row nested">
                         <div class="col col-span-8 port-left">
                             <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/1ufrVAo7V-I?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
+                                <iframe src="https://www.youtube.com/embed/SauWNC3njOQ?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
                             </div>
+                            <img src="/portfolio/d-3dgametour/cover.jpg" alt="" />
                             <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/1ay1OLFNaE8?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
-                            </div>
-                            <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/k21i8qguTqU?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
+                                <iframe src="https://www.youtube.com/embed/zifSp60alaI?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
                             </div>
                             <div class="port-gallery">
                             </div>
                         </div>
                         <div class="col col-span-4 port-right">
-                            <h4>RUGBY VIDEOS</h4>
-                            <p style="margin: 0;">Various purpose videos</p>
-                            <p style="margin: 45px 0px;">Some of the weekly videos made for Rugby AAC to promote, inform and motivate players and fans.</p>
+                            <h4>3D Game Concept</h4>
+                            <p style="margin: 0;">3D Concept</p>
+                            <p style="margin: 45px 0px;">3D Game concept made for a final project with Cinema 4D, Adobe AE and Premiere.<br>The objective was to develop modeling and animation skills.</p>
                             <h3>Client</h3>
-                            <p>Rugby AAC</p>
+                            <p>Personal Project</p>
                             <h3>Role</h3>
-                            <p>Producer</p>
+                            <p>Creator, Developer</p>
                             <h3>Year</h3>
-                            <p>2015-2017</p>
-                            <h3>Website</h3>
-                            <p><a href="http://www.rugbyaac.com" target="_blank">www.rugbyaac.com</a></p>
+                            <p>2015</p>
                         </div>
                     </div>
                 </div>

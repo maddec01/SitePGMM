@@ -52,30 +52,24 @@
                 <div class="container">
                     <div class="row nested">
                         <div class="col col-span-8 port-left">
-                            <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/1ufrVAo7V-I?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
-                            </div>
-                            <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/1ay1OLFNaE8?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
-                            </div>
-                            <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/k21i8qguTqU?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
-                            </div>
+                            <img src="/portfolio/dev-centrosaude/cover.jpg" alt="" />
                             <div class="port-gallery">
+                                <div class="img-x"><img src="/portfolio/dev-centrosaude/pic01.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/dev-centrosaude/pic02.jpg" alt="" /></div>
                             </div>
                         </div>
                         <div class="col col-span-4 port-right">
-                            <h4>RUGBY VIDEOS</h4>
-                            <p style="margin: 0;">Various purpose videos</p>
-                            <p style="margin: 45px 0px;">Some of the weekly videos made for Rugby AAC to promote, inform and motivate players and fans.</p>
+                            <h4>CLINIC CMS</h4>
+                            <p style="margin: 0;">Clinic management</p>
+                            <p style="margin: 45px 0px;">CMS Project developed with PHP, JavaScript, HTML, CSS and MySQL.<br>The objective was to develop from scratch a CMS for a database using the languages mentioned above.<br>The database is extensive as it records all aspects of a public clinic from staff, beds, meds, patients, products, etc.</p>
                             <h3>Client</h3>
-                            <p>Rugby AAC</p>
+                            <p>Personal Project</p>
                             <h3>Role</h3>
-                            <p>Producer</p>
+                            <p>Creator, Developer</p>
                             <h3>Year</h3>
-                            <p>2015-2017</p>
-                            <h3>Website</h3>
-                            <p><a href="http://www.rugbyaac.com" target="_blank">www.rugbyaac.com</a></p>
+                            <p>2016</p>
+                            <h3>Download</h3>
+                            <p><a href="https://github.com/maddec01/Centro-Saude" target="_blank">github.com/maddec01/Centro-Saude</a></p>
                         </div>
                     </div>
                 </div>

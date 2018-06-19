@@ -58,6 +58,42 @@
                     <a class="fil-cat" data-rel="concept">Concept</a>
                 </div>
                 <div id="portfolio">
+                    <!-- 3D Game House -->
+                    <div class="tile scale-anm dev concept all">
+                        <img src="/portfolio/dev-vilagranja/cover.jpg" alt="" />
+                        <a href="/portfolio/dev-vilagranja">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Java Game</h2>
+                                    <p>Game, Development, Concept</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- 3D Game House -->
+                    <div class="tile scale-anm dev design concept all">
+                        <img src="/portfolio/d-3dgametour/cover.jpg" alt="" />
+                        <a href="/portfolio/d-3dgametour">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>3D Game Concept</h2>
+                                    <p>Game, Development, Concept</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Android app -->
+                    <div class="tile scale-anm dev web concept all">
+                        <img src="/portfolio/dev-esaeapp/cover.jpg" alt="" />
+                        <a href="/portfolio/dev-esaeapp">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>ESAE App</h2>
+                                    <p>Development, Web, Concept</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                     <!-- SWTL Game -->
                     <div class="tile scale-anm dev concept all">
                         <img src="/portfolio/dev-swtlgame/cover.jpg" alt="" />
@@ -78,6 +114,18 @@
                                 <div class="portfolio-hover-text">
                                     <h2>Rugby AAC Outdoor</h2>
                                     <p>Video</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Centro Saude -->
+                    <div class="tile scale-anm dev concept web all">
+                        <img src="/portfolio/dev-centrosaude/cover.jpg" alt="" />
+                        <a href="/portfolio/dev-centrosaude">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-text">
+                                    <h2>Clinic CMS</h2>
+                                    <p>Development, Web, Concept</p>
                                 </div>
                             </div>
                         </a>

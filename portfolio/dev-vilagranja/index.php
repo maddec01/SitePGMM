@@ -52,30 +52,23 @@
                 <div class="container">
                     <div class="row nested">
                         <div class="col col-span-8 port-left">
-                            <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/1ufrVAo7V-I?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
-                            </div>
-                            <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/1ay1OLFNaE8?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
-                            </div>
-                            <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/k21i8qguTqU?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
-                            </div>
+                            <img src="/portfolio/dev-vilagranja/cover.jpg" alt="" />
                             <div class="port-gallery">
+                                <div class="img-x"><img src="/portfolio/dev-vilagranja/pic01.jpg" alt="" /></div>
                             </div>
                         </div>
                         <div class="col col-span-4 port-right">
-                            <h4>RUGBY VIDEOS</h4>
-                            <p style="margin: 0;">Various purpose videos</p>
-                            <p style="margin: 45px 0px;">Some of the weekly videos made for Rugby AAC to promote, inform and motivate players and fans.</p>
+                            <h4>JAVA Game</h4>
+                            <p style="margin: 0;">Console Game</p>
+                            <p style="margin: 45px 0px;">Game concept made for a indvidual final project with Java that got me maximum grade (first time in my University).<br>The objective was to develop a game similar to Farmville.</p>
                             <h3>Client</h3>
-                            <p>Rugby AAC</p>
+                            <p>Personal Project</p>
                             <h3>Role</h3>
-                            <p>Producer</p>
+                            <p>Creator, Developer</p>
                             <h3>Year</h3>
-                            <p>2015-2017</p>
-                            <h3>Website</h3>
-                            <p><a href="http://www.rugbyaac.com" target="_blank">www.rugbyaac.com</a></p>
+                            <p>2016</p>
+                            <h3>Download</h3>
+                            <p><a href="/portfolio/dev-vilagranja/vilagranja.java" target="_blank">.java file</a></p>
                         </div>
                     </div>
                 </div>

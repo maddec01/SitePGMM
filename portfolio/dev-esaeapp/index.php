@@ -52,30 +52,29 @@
                 <div class="container">
                     <div class="row nested">
                         <div class="col col-span-8 port-left">
-                            <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/1ufrVAo7V-I?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
-                            </div>
-                            <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/1ay1OLFNaE8?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
-                            </div>
-                            <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/k21i8qguTqU?rel=0&amp;showinfo=0" allowfullscreen="allowfullscreen" class="video"></iframe>
-                            </div>
+                            <img src="/portfolio/dev-esaeapp/pic01.jpg" alt="" />
                             <div class="port-gallery">
+                                <div class="img-x"><img src="/portfolio/dev-esaeapp/pic02.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/dev-esaeapp/pic03.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/dev-esaeapp/pic04.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/dev-esaeapp/pic05.jpg" alt="" /></div>
+                                <div class="img-x"><img src="/portfolio/dev-esaeapp/pic06.jpg" alt="" /></div>
                             </div>
                         </div>
                         <div class="col col-span-4 port-right">
-                            <h4>RUGBY VIDEOS</h4>
-                            <p style="margin: 0;">Various purpose videos</p>
-                            <p style="margin: 45px 0px;">Some of the weekly videos made for Rugby AAC to promote, inform and motivate players and fans.</p>
+                            <h4>ESAE APP</h4>
+                            <p style="margin: 0;">Mobile App and Backend</p>
+                            <p style="margin: 45px 0px;">Individual project developed with Laravel, Xaramin and used a RestFULL API for communication between the two.<br>The objective was to develop multi-platform mobile application and a backend service that manages the content of the app and more.</p>
                             <h3>Client</h3>
-                            <p>Rugby AAC</p>
+                            <p>Personal Project</p>
                             <h3>Role</h3>
-                            <p>Producer</p>
+                            <p>Creator, Developer</p>
                             <h3>Year</h3>
-                            <p>2015-2017</p>
-                            <h3>Website</h3>
-                            <p><a href="http://www.rugbyaac.com" target="_blank">www.rugbyaac.com</a></p>
+                            <p>2017</p>
+                            <h3>Backend</h3>
+                            <p><a href="https://github.com/maddec01/ESAEBackend" target="_blank">github.com/maddec01/ESAEBackend</a></p>
+                            <h3>APP</h3>
+                            <p><a href="https://github.com/maddec01/ESAEApp" target="_blank">github.com/maddec01/ESAEApp</a></p>
                         </div>
                     </div>
                 </div>
